@@ -16,13 +16,13 @@ class MainActivity : AppCompatActivity() {
         val blueText = findViewById<TextView>(R.id.clickCountView)
 
         redText.setOnClickListener {
-            clickMeButton.text = "Clicked on red text"
+            clickMeButton.text = "Red was clicked"
         }
         greenText.setOnClickListener {
-            clickMeButton.text = "Clicked on green text"
+            clickMeButton.text = "Green was clicked"
         }
         blueText.setOnClickListener {
-            clickMeButton.text = "Clicked on blue text"
+            clickMeButton.text = "Blue was clicked"
         }
     }
 }
